@@ -6,7 +6,7 @@ import { type InputPort } from '../ports/InputPort';
 import { type RenderPort } from '../ports/RenderPort';
 import { type AudioPort } from '../ports/AudioPort';
 import type { Difficulty, OpponentType } from '../domain/entities/GameState';
-
+//main archive
 export class GameEngine {
   public state: GameState;
   public grid: Grid;
