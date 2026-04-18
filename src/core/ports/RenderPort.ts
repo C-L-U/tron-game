@@ -1,6 +1,5 @@
 import { LightCycle } from '../domain/entities/LightCycle';
 import { Grid } from '../domain/entities/Grid';
-import { type GameState } from '../domain/entities/GameState';
 
 export interface RenderPort {
   clear(): void;

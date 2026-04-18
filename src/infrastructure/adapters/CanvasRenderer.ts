@@ -1,7 +1,6 @@
 import { type RenderPort } from '../../core/ports/RenderPort';
 import { Grid } from '../../core/domain/entities/Grid';
 import { LightCycle } from '../../core/domain/entities/LightCycle';
-import { type GameState } from '../../core/domain/entities/GameState';
 
 export class CanvasRenderer implements RenderPort {
   private ctx: CanvasRenderingContext2D;
@@ -97,8 +96,9 @@ export class CanvasRenderer implements RenderPort {
   }
 
   public applyGlow(difficulty?: string): void {
-      // Vector glow is handled by CSS filters on the canvas element.
-      // However, if the difficulty is GRID, we might change context styling here or in CSS.
-      // Easiest is to add a class to the canvas element in React, which we'll do in CanvasGameArea.
+    // Vector glow is handled by CSS filters on the canvas element.
+    // However, if the difficulty is GRID, we might change context styling here or in CSS.
+    // Easiest is to add a class to the canvas element in React, which we'll do in CanvasGameArea.
+    console.log("we can made someting whith that", difficulty);
   }
 }
