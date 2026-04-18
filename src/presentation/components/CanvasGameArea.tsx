@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { GameEngine } from '../../core/application/GameEngine';
 import { CanvasRenderer } from '../../infrastructure/adapters/CanvasRenderer';
 import { KeyboardAdapter } from '../../infrastructure/adapters/KeyboardAdapter';

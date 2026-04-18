@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Difficulty, OpponentType } from '../../core/domain/entities/GameState';
 
 interface MenuOverlayProps {

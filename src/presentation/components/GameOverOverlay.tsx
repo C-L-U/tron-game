@@ -1,4 +1,3 @@
-import React from 'react';
 import { type GameState } from '../../core/domain/entities/GameState';
 
 interface GameOverOverlayProps {
