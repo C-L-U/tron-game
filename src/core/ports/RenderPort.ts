@@ -1,6 +1,6 @@
 import { LightCycle } from '../domain/entities/LightCycle';
 import { Grid } from '../domain/entities/Grid';
-//fdff
+
 export interface RenderPort {
   clear(): void;
   drawGrid(grid: Grid): void;
