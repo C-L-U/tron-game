@@ -3,10 +3,8 @@ import { type AudioPort } from '../../core/ports/AudioPort';
 export class WebAudioAdapter implements AudioPort {
   private ctx: AudioContext | null = null;
   private isInitialized = false;
-
+  //here u can create something interesting
   public init(): void {
-    // Audio Context should only be created after user interaction.
-    // E.g. when 'Start' is pressed.
   }
 
   private ensureInit() {
