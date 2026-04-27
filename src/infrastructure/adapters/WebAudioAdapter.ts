@@ -18,7 +18,7 @@ export class WebAudioAdapter implements AudioPort {
       }
     }
   }
-  //ffff
+  //ffffffff
   private playTone(freq: number, type: OscillatorType, duration: number, vol: number = 0.1) {
     if (!this.ctx) return;
     const osc = this.ctx.createOscillator();
