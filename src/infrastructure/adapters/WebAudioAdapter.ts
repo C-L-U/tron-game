@@ -1,5 +1,5 @@
 import { type AudioPort } from '../../core/ports/AudioPort';
-
+//hola
 export class WebAudioAdapter implements AudioPort {
   private ctx: AudioContext | null = null;
   private isInitialized = false;
