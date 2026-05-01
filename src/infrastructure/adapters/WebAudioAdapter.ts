@@ -4,7 +4,6 @@ export class WebAudioAdapter implements AudioPort {
   private isInitialized = false;
   public init(): void {
   }
-  //
   private ensureInit() {
     if (!this.isInitialized) {
       try {
