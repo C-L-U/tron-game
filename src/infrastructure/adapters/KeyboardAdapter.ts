@@ -57,7 +57,6 @@ export class KeyboardAdapter implements InputPort {
   public poll(): InputRecord {
     // Return copy of current state, clear edge triggers
     const current = { ...this.record };
-
     // Clear instant pushes
     this.record.startPressed = false;
     this.record.resetPressed = false;
