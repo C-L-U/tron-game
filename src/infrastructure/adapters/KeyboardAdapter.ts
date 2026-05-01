@@ -63,7 +63,6 @@ export class KeyboardAdapter implements InputPort {
     this.record.resetPressed = false;
     this.record.p1Direction = null; // Consume directions to avoid multi-apply
     this.record.p2Direction = null;
-
     return current;
   }
 }
