@@ -5,7 +5,7 @@ interface GameOverOverlayProps {
   onRetry: () => void;
   onMainMenu: () => void;
 }
-//lol
+
 export const GameOverOverlay: React.FC<GameOverOverlayProps> = ({ state, onRetry, onMainMenu }) => {
   const winnerText = state.winnerId === 'tie' ? 'DRAW' : `${state.winnerId === 'p1' ? 'PLAYER 1' : 'OPPONENT'} WINS`;
   const p1Derezzed = state.winnerId !== 'tie' && state.winnerId !== 'p1';
