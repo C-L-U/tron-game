@@ -1,5 +1,4 @@
 import { type GameState } from '../../core/domain/entities/GameState';
-
 interface GameOverOverlayProps {
   state: GameState;
   onRetry: () => void;
