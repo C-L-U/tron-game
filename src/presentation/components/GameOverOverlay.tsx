@@ -11,7 +11,6 @@ export const GameOverOverlay: React.FC<GameOverOverlayProps> = ({ state, onRetry
     <div className="menu-overlay game-over-overlay">
       <h1 className="start-title danger-text">{p1Derezzed ? 'IDENTITY DISC DEREZZED' : 'SYSTEM OVERRIDE'}</h1>
       <h2 className="neon-text-cyan mb-lg">{winnerText}</h2>
-
       <div className="score-board">
         <div>P1 SCORE: {state.score.p1}</div>
         <div>P2 SCORE: {state.score.p2}</div>
