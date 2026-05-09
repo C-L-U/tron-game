@@ -15,6 +15,7 @@ export const GameOverOverlay: React.FC<GameOverOverlayProps> = ({ state, onRetry
         <div>P1 SCORE: {state.score.p1}</div>
         <div>P2 SCORE: {state.score.p2}</div>
       </div>
+      
       <div className="menu-options mt-xl">
         <div className="neon-text-cyan menu-item" onClick={onRetry}>
           &gt; RETRY MATCH
