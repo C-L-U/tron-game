@@ -93,7 +93,6 @@ export class GameEngine {
     }
     const p2 = new LightCycle('p2', new Vector2D(this.grid.width * 0.8, this.grid.height * 0.5), Direction.LEFT, p2Color, p2Speed);
     this.cycles = [p1, p2];
-
     // Mark starting points
     this.cycles.forEach(c => this.markOccupied(c.position));
   }
