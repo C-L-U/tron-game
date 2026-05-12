@@ -92,7 +92,6 @@ export class GameEngine {
       p2Speed = 1.2 * speedMultiplier; // slightly faster than player
     }
     const p2 = new LightCycle('p2', new Vector2D(this.grid.width * 0.8, this.grid.height * 0.5), Direction.LEFT, p2Color, p2Speed);
-
     this.cycles = [p1, p2];
 
     // Mark starting points
