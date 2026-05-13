@@ -117,7 +117,6 @@ export class GameEngine {
   private markOccupied(pos: Vector2D) {
     this.occupiedCells.add(`${Math.round(pos.x)},${Math.round(pos.y)}`);
   }
-
   private isOccupied(pos: Vector2D): boolean {
     return this.occupiedCells.has(`${Math.round(pos.x)},${Math.round(pos.y)}`);
   }
