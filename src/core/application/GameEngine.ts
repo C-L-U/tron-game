@@ -135,7 +135,6 @@ export class GameEngine {
       }
       return;
     }
-
     // Wake from attract mode on any key
     if (this.state.status === 'ATTRACT_MODE' && (input.startPressed || input.resetPressed || input.p1Direction)) {
       this.state.status = 'MENU';
