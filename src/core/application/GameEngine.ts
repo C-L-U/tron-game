@@ -114,7 +114,6 @@ export class GameEngine {
     };
     this.animationFrameId = requestAnimationFrame(loop);
   }
-
   private markOccupied(pos: Vector2D) {
     this.occupiedCells.add(`${Math.round(pos.x)},${Math.round(pos.y)}`);
   }
