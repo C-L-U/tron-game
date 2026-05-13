@@ -96,7 +96,6 @@ export class GameEngine {
     // Mark starting points
     this.cycles.forEach(c => this.markOccupied(c.position));
   }
-
   private startLoop() {
     const loop = (time: number) => {
       if (!this.lastRenderTime) this.lastRenderTime = time;
