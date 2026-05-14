@@ -140,7 +140,6 @@ export class GameEngine {
       this.state.status = 'MENU';
       return;
     }
-    
     // Handle Input
     if (this.cycles[0].alive && input.p1Direction && this.state.status !== 'ATTRACT_MODE') {
       this.cycles[0].changeDirection(input.p1Direction);
