@@ -157,7 +157,6 @@ export class GameEngine {
       if (!cycle.alive) return;
 
       const nextPos = cycle.position.add(cycle.direction.scale(cycle.speed));
-
       // Wall collision
       if (this.grid.isOutOfBounds(nextPos.x, nextPos.y) || this.isOccupied(nextPos)) {
         cycle.die();
