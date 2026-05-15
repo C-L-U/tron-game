@@ -167,7 +167,6 @@ export class GameEngine {
         this.markOccupied(cycle.position); // register trail
       }
     });
-
     if (anyCrash) {
       this.handleGameOver();
     }
