@@ -145,7 +145,6 @@ export class GameEngine {
       this.cycles[0].changeDirection(input.p1Direction);
       this.audioPort.playMove(); // Maybe debounce this to avoid ear rape
     }
-
     // Extremely basic AI for Attract mode or P2
     this.cycles.forEach((cycle, index) => {
       if (this.state.status === 'ATTRACT_MODE' || index === 1) {
