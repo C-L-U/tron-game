@@ -152,7 +152,6 @@ export class GameEngine {
       }
     });
     let anyCrash = false;
-
     // Movement and collision
     this.cycles.forEach(cycle => {
       if (!cycle.alive) return;
