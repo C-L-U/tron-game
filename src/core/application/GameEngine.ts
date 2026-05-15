@@ -151,7 +151,6 @@ export class GameEngine {
         this.performAIAvoidance(cycle);
       }
     });
-
     let anyCrash = false;
 
     // Movement and collision
