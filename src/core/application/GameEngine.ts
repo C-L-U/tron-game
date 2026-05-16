@@ -171,7 +171,6 @@ export class GameEngine {
       this.handleGameOver();
     }
   }
-
   private performAIAvoidance(cycle: LightCycle) {
     if (!cycle.alive) return;
 
