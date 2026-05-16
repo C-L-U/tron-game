@@ -163,6 +163,7 @@ export class GameEngine {
         this.audioPort.playCrash();
         anyCrash = true;
       } else {
+
         cycle.move();
         this.markOccupied(cycle.position); // register trail
       }
