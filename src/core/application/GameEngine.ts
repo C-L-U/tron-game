@@ -173,7 +173,6 @@ export class GameEngine {
   }
   private performAIAvoidance(cycle: LightCycle) {
     if (!cycle.alive) return;
-
     // Advanced look ahead logic. 
     // Rinzler reads much further ahead, Random reads basic
     const lookAheadMultiplier = this.state.opponent === 'RINZLER' ? 5 : (this.state.opponent === 'CLU' ? 3 : 2);
