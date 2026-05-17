@@ -221,7 +221,6 @@ export class GameEngine {
         const currentDirIndex = [Direction.UP, Direction.RIGHT, Direction.DOWN, Direction.LEFT].indexOf(cycle.direction);
         const turnRight = [Direction.RIGHT, Direction.DOWN, Direction.LEFT, Direction.UP][currentDirIndex];
         const turnLeft = [Direction.LEFT, Direction.UP, Direction.RIGHT, Direction.DOWN][currentDirIndex];
-
         let chosenTurn = Math.random() > 0.5 ? turnRight : turnLeft;
 
         if (this.state.opponent === 'CLU' || this.state.opponent === 'RINZLER') {
