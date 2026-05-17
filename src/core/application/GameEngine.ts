@@ -178,7 +178,6 @@ export class GameEngine {
     const lookAheadMultiplier = this.state.opponent === 'RINZLER' ? 5 : (this.state.opponent === 'CLU' ? 3 : 2);
     const nextPos = cycle.position.add(cycle.direction.scale(cycle.speed * lookAheadMultiplier));
     const lookAhead = this.isOccupied(nextPos) || this.grid.isOutOfBounds(nextPos.x, nextPos.y);
-
     if (lookAhead) {
       const currentDirIndex = [Direction.UP, Direction.RIGHT, Direction.DOWN, Direction.LEFT].indexOf(cycle.direction);
       if (currentDirIndex === -1) return;
