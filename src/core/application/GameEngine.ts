@@ -176,7 +176,6 @@ export class GameEngine {
     // Advanced look ahead logic. 
     // Rinzler reads much further ahead, Random reads basic
     const lookAheadMultiplier = this.state.opponent === 'RINZLER' ? 5 : (this.state.opponent === 'CLU' ? 3 : 2);
-
     const nextPos = cycle.position.add(cycle.direction.scale(cycle.speed * lookAheadMultiplier));
     const lookAhead = this.isOccupied(nextPos) || this.grid.isOutOfBounds(nextPos.x, nextPos.y);
 
