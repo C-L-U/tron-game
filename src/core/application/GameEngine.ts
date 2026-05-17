@@ -206,7 +206,6 @@ export class GameEngine {
           else favorRight = false;
         }
       }
-
       if (rightOk && (!leftOk || favorRight)) {
         cycle.changeDirection(turnRight);
         this.audioPort.playMove();
