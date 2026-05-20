@@ -259,7 +259,6 @@ export class GameEngine {
       this.state.winnerId = 'tie';
     }
   }
-
   private render() {
     this.renderPort.clear();
 
