@@ -261,7 +261,6 @@ export class GameEngine {
   }
   private render() {
     this.renderPort.clear();
-
     if (this.state.status === 'PLAYING' || this.state.status === 'ATTRACT_MODE' || this.state.status === 'GAME_OVER') {
       this.renderPort.drawGrid(this.grid);
       this.cycles.forEach(cycle => {
