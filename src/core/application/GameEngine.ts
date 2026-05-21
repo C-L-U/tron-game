@@ -41,7 +41,6 @@ export class GameEngine {
       score: { p1: 0, p2: 0 }
     };
   }
-
   public init() {
     this.inputPort.init();
     this.audioPort.init();
