@@ -10,7 +10,6 @@ export class GameEngine {
   public state: GameState;
   public grid: Grid;
   public cycles: LightCycle[] = [];
-
   private occupiedCells: Set<string> = new Set();
 
   private lastRenderTime: number = 0;
