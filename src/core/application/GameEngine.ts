@@ -46,7 +46,6 @@ export class GameEngine {
     this.audioPort.init();
     this.startLoop();
   }
-
   public dispose() {
     this.inputPort.dispose();
     if (this.animationFrameId) {
