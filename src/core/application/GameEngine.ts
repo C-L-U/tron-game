@@ -52,7 +52,6 @@ export class GameEngine {
       cancelAnimationFrame(this.animationFrameId);
     }
   }
-
   public setDifficulty(diff: Difficulty) {
     this.state.difficulty = diff;
   }
