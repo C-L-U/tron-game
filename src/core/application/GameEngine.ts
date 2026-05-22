@@ -40,6 +40,7 @@ export class GameEngine {
       winnerId: null,
       score: { p1: 0, p2: 0 }
     };
+    
   }
   public init() {
     this.inputPort.init();
