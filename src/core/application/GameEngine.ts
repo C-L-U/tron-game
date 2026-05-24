@@ -55,7 +55,6 @@ export class GameEngine {
   public setDifficulty(diff: Difficulty) {
     this.state.difficulty = diff;
   }
-
   public setOpponent(opp: OpponentType) {
     this.state.opponent = opp;
   }
