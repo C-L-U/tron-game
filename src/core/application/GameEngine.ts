@@ -62,7 +62,6 @@ export class GameEngine {
     this.audioPort.playStart();
     this.resetGame('PLAYING');
   }
-
   public resetToMenu() {
     this.state.status = 'MENU';
   }
