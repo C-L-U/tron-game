@@ -66,7 +66,6 @@ export class GameEngine {
   public resetToMenu() {
     this.state.status = 'MENU';
   }
-
   private resetGame(status: 'PLAYING' | 'ATTRACT_MODE') {
     this.state.status = status;
     this.state.winnerId = null;
