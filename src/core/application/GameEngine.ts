@@ -122,6 +122,7 @@ export class GameEngine {
           this.resetGame('ATTRACT_MODE');
           this.attractModeTimer = 0;
         }
+        
       }
       return;
     }
