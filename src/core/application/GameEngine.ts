@@ -99,7 +99,6 @@ export class GameEngine {
         this.tick();
         this.accumulator -= this.TICK_RATE;
       }
-
       this.render();
       this.animationFrameId = requestAnimationFrame(loop);
     };
