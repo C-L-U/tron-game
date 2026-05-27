@@ -94,7 +94,6 @@ export class GameEngine {
       const deltaTime = time - this.lastRenderTime;
       this.lastRenderTime = time;
       this.accumulator += deltaTime;
-
       while (this.accumulator >= this.TICK_RATE) {
         this.tick();
         this.accumulator -= this.TICK_RATE;
