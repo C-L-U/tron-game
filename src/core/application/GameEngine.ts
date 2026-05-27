@@ -235,7 +235,6 @@ export class GameEngine {
       }
     }
   }
-  
   private handleGameOver() {
     this.state.status = 'GAME_OVER';
     const aliveCycles = this.cycles.filter(c => c.alive);
