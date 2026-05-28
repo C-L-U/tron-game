@@ -18,7 +18,6 @@ export class GameEngine {
   private animationFrameId: number | null = null;
   private attractModeTimer: number = 0;
 
-  
   private renderPort: RenderPort;
   private inputPort: InputPort;
   private audioPort: AudioPort;
