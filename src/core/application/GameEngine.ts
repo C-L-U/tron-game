@@ -6,12 +6,13 @@ import { type InputPort } from '../ports/InputPort';
 import { type RenderPort } from '../ports/RenderPort';
 import { type AudioPort } from '../ports/AudioPort';
 import type { Difficulty, OpponentType } from '../domain/entities/GameState';
+
 export class GameEngine {
   public state: GameState;
   public grid: Grid;
   public cycles: LightCycle[] = [];
   private occupiedCells: Set<string> = new Set();
-  
+
   private lastRenderTime: number = 0;
   private accumulator: number = 0;
   private readonly TICK_RATE = 1000 / 60; // 60 FPS Logic
