@@ -17,7 +17,6 @@ export class GameEngine {
   private readonly TICK_RATE = 1000 / 60; // 60 FPS Logic
   private animationFrameId: number | null = null;
   private attractModeTimer: number = 0;
-
   private renderPort: RenderPort;
   private inputPort: InputPort;
   private audioPort: AudioPort;
