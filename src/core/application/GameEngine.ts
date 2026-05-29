@@ -22,6 +22,7 @@ export class GameEngine {
   private inputPort: InputPort;
   private audioPort: AudioPort;
 
+  
   constructor(
     renderPort: RenderPort,
     inputPort: InputPort,
