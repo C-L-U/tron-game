@@ -11,6 +11,7 @@ export class GameEngine {
   public grid: Grid;
   public cycles: LightCycle[] = [];
   private occupiedCells: Set<string> = new Set();
+  
   private lastRenderTime: number = 0;
   private accumulator: number = 0;
   private readonly TICK_RATE = 1000 / 60; // 60 FPS Logic
