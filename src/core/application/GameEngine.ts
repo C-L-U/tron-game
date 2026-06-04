@@ -56,6 +56,7 @@ export class GameEngine {
   public setOpponent(opp: OpponentType) {
     this.state.opponent = opp;
   }
+
   
   public startGame() {
     this.audioPort.playStart();
