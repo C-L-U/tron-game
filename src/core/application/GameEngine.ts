@@ -57,7 +57,6 @@ export class GameEngine {
     this.state.opponent = opp;
   }
 
-  
   public startGame() {
     this.audioPort.playStart();
     this.resetGame('PLAYING');
