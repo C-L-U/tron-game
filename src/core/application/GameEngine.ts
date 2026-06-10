@@ -218,6 +218,7 @@ export class GameEngine {
               if (turnRight.x === Math.sign(dx)) chosenTurn = turnRight;
               else chosenTurn = turnLeft;
             } else {
+              
               if (turnRight.y === Math.sign(dy)) chosenTurn = turnRight;
               else chosenTurn = turnLeft;
             }
