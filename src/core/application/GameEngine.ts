@@ -221,7 +221,6 @@ export class GameEngine {
               if (turnRight.y === Math.sign(dy)) chosenTurn = turnRight;
               else chosenTurn = turnLeft;
             }
-
           }
         }
         const testPos = cycle.position.add(chosenTurn.scale(cycle.speed * 2));
