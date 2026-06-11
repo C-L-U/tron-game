@@ -222,7 +222,6 @@ export class GameEngine {
               else chosenTurn = turnLeft;
             }
 
-            
           }
         }
         const testPos = cycle.position.add(chosenTurn.scale(cycle.speed * 2));
