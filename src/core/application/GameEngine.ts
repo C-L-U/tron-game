@@ -223,7 +223,7 @@ export class GameEngine {
             }
           }
         }
-        
+    
         const testPos = cycle.position.add(chosenTurn.scale(cycle.speed * 2));
         if (!this.isOccupied(testPos) && !this.grid.isOutOfBounds(testPos.x, testPos.y)) {
           cycle.changeDirection(chosenTurn);
