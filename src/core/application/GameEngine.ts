@@ -67,7 +67,6 @@ export class GameEngine {
     this.state.winnerId = null;
     this.occupiedCells.clear();
 
-
     const speedMultiplier = this.state.difficulty === 'GRID' ? 2 : (this.state.difficulty === 'HARD' ? 1.5 : 1);
     // Player 1
     const p1 = new LightCycle('p1', new Vector2D(this.grid.width * 0.2, this.grid.height * 0.5), Direction.RIGHT, '#00ffff', 1 * speedMultiplier);
