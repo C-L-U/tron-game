@@ -66,6 +66,7 @@ export class GameEngine {
     this.state.status = status;
     this.state.winnerId = null;
     this.occupiedCells.clear();
+
     
     const speedMultiplier = this.state.difficulty === 'GRID' ? 2 : (this.state.difficulty === 'HARD' ? 1.5 : 1);
     // Player 1
