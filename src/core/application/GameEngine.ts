@@ -104,7 +104,6 @@ export class GameEngine {
   private isOccupied(pos: Vector2D): boolean {
     return this.occupiedCells.has(`${Math.round(pos.x)},${Math.round(pos.y)}`);
   }
-
   private tick() {
     const input = this.inputPort.poll();
 
