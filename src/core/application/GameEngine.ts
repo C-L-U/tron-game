@@ -106,7 +106,6 @@ export class GameEngine {
   }
   private tick() {
     const input = this.inputPort.poll();
-
     if (this.state.status !== 'PLAYING' && this.state.status !== 'ATTRACT_MODE' && this.state.status !== 'GAME_OVER') {
       // Allow attract mode to start if left on main menu
       if (this.state.status === 'MENU') {
