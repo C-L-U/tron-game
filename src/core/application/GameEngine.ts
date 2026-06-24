@@ -71,8 +71,7 @@ export class GameEngine {
     const p1 = new LightCycle('p1', new Vector2D(this.grid.width * 0.2, this.grid.height * 0.5), Direction.RIGHT, '#00ffff', 1 * speedMultiplier);
     // Player 2 (or AI)
     let p2Color = '#ff8c00'; // Normal orange
-    let p2Speed = 1 * speedMultiplier;
-   
+    let p2Speed = 1 * speedMultiplier; 
     if (this.state.opponent === 'CLU') {
       p2Color = '#ffff00'; // Yellow
     } else if (this.state.opponent === 'RINZLER') {
