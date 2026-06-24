@@ -72,8 +72,7 @@ export class GameEngine {
     // Player 2 (or AI)
     let p2Color = '#ff8c00'; // Normal orange
     let p2Speed = 1 * speedMultiplier;
-  
-    
+   
     if (this.state.opponent === 'CLU') {
       p2Color = '#ffff00'; // Yellow
     } else if (this.state.opponent === 'RINZLER') {
