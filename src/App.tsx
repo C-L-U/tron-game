@@ -8,5 +8,4 @@ function App() {
     </ArcadeCabinet>
   );
 }
-
 export default App;
