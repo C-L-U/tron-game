@@ -3,7 +3,7 @@ import { CanvasGameArea } from './presentation/components/CanvasGameArea';
 function App() {
   return (
     <ArcadeCabinet>
-      <CanvasGameArea/>
+      <CanvasGameArea/> 
     </ArcadeCabinet> 
   );
 }
