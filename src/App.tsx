@@ -1,7 +1,7 @@
 import { ArcadeCabinet } from './presentation/components/ArcadeCabinet';
 import { CanvasGameArea } from './presentation/components/CanvasGameArea';
 function App() {
-  return (  
+  return ( 
     <ArcadeCabinet>
       <CanvasGameArea/>
     </ArcadeCabinet>
