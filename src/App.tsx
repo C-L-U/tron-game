@@ -4,7 +4,7 @@ function App() {
   return (
     <ArcadeCabinet>
       <CanvasGameArea/>
-    </ArcadeCabinet>  
+    </ArcadeCabinet> 
   );
 }
 export default App;
