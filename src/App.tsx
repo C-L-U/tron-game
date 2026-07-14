@@ -6,5 +6,5 @@ function App() {
       <CanvasGameArea/>
     </ArcadeCabinet>
   );
-} 
+}
 export default App;
